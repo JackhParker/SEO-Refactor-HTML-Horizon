@@ -1,3 +1,5 @@
+/*General css modification for the main code and the website overall*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +9,10 @@
 body {
     background-color: #d9dcd6;
 }
+
+/* End of the css for the main code and the website overall */
+
+/* ELements that are changing the way the header is shown */
 
 header {
     padding: 20px;
@@ -41,6 +47,10 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* End of the css for the header */
+
+/* Start of the css modifications for the paragragh contents */
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,6 +60,10 @@ p {
     font-size: 16px;
 }
 
+/* End of the css modifications for the paragragh contents */
+
+/* Start of the css modifications for the main picture of the website */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +72,10 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* End of the css modifications for the main picture of the website */
+
+/* Start of the css modifications for the main articles and aside with pictures */
 
 .float-left {
     float: left;
@@ -188,6 +206,10 @@ p {
     font-size: 36px;
 }
 
+/* End of the css modifications for the main articles and aside with pictures */
+
+/* Start of the css modifications for the footer */
+
 footer {
     padding: 30px;
     clear: both;
@@ -198,3 +220,5 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+
+/* End of the css modifications for the footer */
